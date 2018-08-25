@@ -1,0 +1,182 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://World/grass.tres" type="CubeMesh" id=1]
+[ext_resource path="res://World/dirt.tres" type="CubeMesh" id=2]
+[ext_resource path="res://World/stone.tres" type="CubeMesh" id=3]
+[ext_resource path="res://World/bedrock.tres" type="CubeMesh" id=4]
+[ext_resource path="res://World/gravel.tres" type="CubeMesh" id=5]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+
+points = PoolVector3Array( -0.25, 0.25, 0.25, 0.25, 0.25, -0.25, -0.083313, 0.25, 0.25, 0.083313, 0.25, -0.25, 0.083313, 0.25, 0.25, -0.083313, 0.25, -0.25, 0.25, 0.25, 0.25, -0.25, 0.25, -0.25, -0.25, 0.083313, 0.25, 0.25, 0.083313, -0.25, -0.083313, 0.083313, 0.25, 0.083313, 0.083313, -0.25, 0.083313, 0.083313, 0.25, -0.083313, 0.083313, -0.25, 0.25, 0.083313, 0.25, -0.25, 0.083313, -0.25, -0.25, -0.083313, 0.25, 0.25, -0.083313, -0.25, -0.083313, -0.083313, 0.25, 0.083313, -0.083313, -0.25, 0.083313, -0.083313, 0.25, -0.083313, -0.083313, -0.25, 0.25, -0.083313, 0.25, -0.25, -0.083313, -0.25, -0.25, -0.25, 0.25, 0.25, -0.25, -0.25, -0.083313, -0.25, 0.25, 0.083313, -0.25, -0.25, 0.083313, -0.25, 0.25, -0.083313, -0.25, -0.25, 0.25, -0.25, 0.25, -0.25, -0.25, -0.25, 0.25, 0.25, 0.25, -0.25, 0.25, -0.25, 0.25, 0.25, 0.083313, -0.25, 0.25, -0.083313, 0.25, 0.25, -0.083313, -0.25, 0.25, 0.083313, 0.25, 0.25, -0.25, -0.25, 0.25, 0.25, 0.25, 0.083313, 0.25, -0.25, 0.083313, -0.25, 0.25, 0.083313, 0.083313, -0.25, 0.083313, -0.083313, 0.25, 0.083313, -0.083313, -0.25, 0.083313, 0.083313, 0.25, 0.083313, -0.25, -0.25, 0.083313, 0.25, 0.25, -0.083313, 0.25, -0.25, -0.083313, -0.25, 0.25, -0.083313, 0.083313, -0.25, -0.083313, -0.083313, 0.25, -0.083313, -0.083313, -0.25, -0.083313, 0.083313, 0.25, -0.083313, -0.25, -0.25, -0.083313, 0.25, 0.25, -0.25, 0.25, -0.25, -0.25, -0.25, 0.25, -0.25, 0.083313, -0.25, -0.25, -0.083313, 0.25, -0.25, -0.083313, -0.25, -0.25, 0.083313, 0.25, -0.25, -0.25, -0.25, -0.25, 0.25, 0.25, 0.25, 0.25, -0.25, -0.25, 0.25, 0.083313, 0.25, 0.25, -0.083313, -0.25, 0.25, -0.083313, 0.25, 0.25, 0.083313, -0.25, 0.25, -0.25, 0.25, 0.25, 0.25, -0.25, 0.25, 0.25, 0.25, 0.083313, -0.25, -0.25, 0.083313, 0.083313, 0.25, 0.083313, -0.083313, -0.25, 0.083313, -0.083313, 0.25, 0.083313, 0.083313, -0.25, 0.083313, -0.25, 0.25, 0.083313, 0.25, -0.25, 0.083313, 0.25, 0.25, -0.083313, -0.25, -0.25, -0.083313, 0.083313, 0.25, -0.083313, -0.083313, -0.25, -0.083313, -0.083313, 0.25, -0.083313, 0.083313, -0.25, -0.083313, -0.25, 0.25, -0.083313, 0.25, -0.25, -0.083313, 0.25, 0.25, -0.25, -0.25, -0.25, -0.25, 0.083313, 0.25, -0.25, -0.083313, -0.25, -0.25, -0.083313, 0.25, -0.25, 0.083313, -0.25, -0.25, -0.25, 0.25, -0.25, 0.25, -0.25, -0.25 )
+
+[sub_resource type="ConvexPolygonShape" id=4]
+
+points = PoolVector3Array( -0.25, 0.25, 0.25, 0.25, 0.25, -0.25, 0.25, 0.25, 0.25, -0.25, 0.25, -0.25, -0.25, -0.25, 0.25, 0.25, -0.25, -0.25, 0.25, -0.25, 0.25, -0.25, -0.25, -0.25, 0.25, 0.25, 0.25, -0.25, 0.25, -0.25, 0.25, 0.25, -0.25, -0.25, 0.25, 0.25, 0.25, -0.25, 0.25, -0.25, -0.25, -0.25, 0.25, -0.25, -0.25, -0.25, -0.25, 0.25, 0.25, 0.25, 0.25, -0.25, -0.25, 0.25, -0.25, 0.25, 0.25, 0.25, -0.25, 0.25, 0.25, 0.25, -0.25, -0.25, -0.25, -0.25, -0.25, 0.25, -0.25, 0.25, -0.25, -0.25 )
+
+[node name="Scene Root" type="Spatial"]
+
+[node name="Grass" type="MeshInstance" parent="." index="0"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 1 )
+skeleton = NodePath("..")
+material/0 = null
+
+[node name="StaticBody" type="StaticBody" parent="Grass" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Grass/StaticBody" index="0"]
+
+shape = SubResource( 1 )
+disabled = false
+
+[node name="Dirt" type="MeshInstance" parent="." index="1"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 2 )
+skeleton = NodePath("..")
+material/0 = null
+_sections_unfolded = [ "Transform" ]
+
+[node name="StaticBody" type="StaticBody" parent="Dirt" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Dirt/StaticBody" index="0"]
+
+shape = SubResource( 1 )
+disabled = false
+
+[node name="Stone" type="MeshInstance" parent="." index="2"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 3 )
+skeleton = NodePath("..")
+material/0 = null
+_sections_unfolded = [ "Transform" ]
+
+[node name="StaticBody" type="StaticBody" parent="Stone" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Stone/StaticBody" index="0"]
+
+shape = SubResource( 4 )
+disabled = false
+
+[node name="Bedrock" type="MeshInstance" parent="." index="3"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 4 )
+skeleton = NodePath("..")
+material/0 = null
+_sections_unfolded = [ "Transform" ]
+
+[node name="StaticBody" type="StaticBody" parent="Bedrock" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Bedrock/StaticBody" index="0"]
+
+shape = SubResource( 4 )
+disabled = false
+
+[node name="Gravel" type="MeshInstance" parent="." index="4"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 5 )
+skeleton = NodePath("..")
+material/0 = null
+_sections_unfolded = [ "Transform", "material" ]
+
+[node name="StaticBody" type="StaticBody" parent="Gravel" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Gravel/StaticBody" index="0"]
+
+shape = SubResource( 4 )
+disabled = false
+
+

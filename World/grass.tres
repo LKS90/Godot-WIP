@@ -1,0 +1,19 @@
+[gd_resource type="CubeMesh" load_steps=3 format=2]
+
+[ext_resource path="res://World/grass.shader" type="Shader" id=1]
+
+[sub_resource type="ShaderMaterial" id=1]
+
+render_priority = 0
+shader = ExtResource( 1 )
+
+[resource]
+
+material = SubResource( 1 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector3( 0.5, 0.5, 0.5 )
+subdivide_width = 4
+subdivide_height = 4
+subdivide_depth = 4
+_sections_unfolded = [ "Albedo" ]
+
